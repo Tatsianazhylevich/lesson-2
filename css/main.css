@@ -40,6 +40,7 @@ hr {
     color: #86878b;
     text-align: center;
     padding-top: 30px;
+    margin: 0;
 }
 
 section {
@@ -144,4 +145,5 @@ section {
     color: #86878b;
     display: inline-block;
     text-align: center;
+    line-height: 14px;
 }
