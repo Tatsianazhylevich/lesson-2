@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: 1400px;
+    height: 590px;
+    background-color: #fff;
+    margin: 0;
+}
+header {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: #212121;
+    display: inline-block;
+    margin: 0;
+    padding-top: 107px;
+    padding-bottom: 30px;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 0;
+    margin-left: 668px;
+    margin-right: 668px;
+    border: none;
+}
+
+.small-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+    padding-top: 30px;
+}
+
+section {
+    width: 350px;
+    height: 197px;
+    text-align: center;
+    display: inline-block;
+}
+
+.thoughtful-design {
+    margin-top: 80px;
+    margin-left: 143px;
+    margin-bottom: 106px;
+}
+
+.well-crafted {
+    margin-top: 80px;
+    margin-bottom: 106px;
+}
+
+.easy-to-customize {
+    margin-top: 80px;
+    margin-bottom: 106px;
+    margin-right: 144px;
+}
+.lightning {
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    padding-left: 23px;
+    padding-right: 24px;
+}
+
+.lamp {
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 22px;
+    padding-right: 23px;
+}
+
+.keyboard {
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 21px;
+    padding-bottom: 22px;
+    padding-left: 14px;
+    padding-right: 15px;
+}
+
+.article-lamp {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 29px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.article-keyboard {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 29px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.article-lightning {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 29px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #86878b;
+    display: inline-block;
+    text-align: center;
+}
