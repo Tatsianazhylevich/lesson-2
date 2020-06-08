@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {
+html, body {
     width: 1400px;
     height: 590px;
     background-color: #fff;
@@ -48,6 +48,7 @@ section {
     height: 197px;
     text-align: center;
     display: inline-block;
+
 }
 
 .thoughtful-design {
@@ -64,57 +65,51 @@ section {
 .easy-to-customize {
     margin-top: 80px;
     margin-bottom: 106px;
-    margin-right: 144px;
-}
-
-.lightning {
-    width: 70px;
-    height: 70px;
-    border-color: #ff8b38;
-    border-style: solid;
-    border-radius: 50px;
-    text-align: center;
-    display: inline-block;
-    padding-top: 16px;
-    padding-bottom: 17px;
-    padding-left: 23px;
-    padding-right: 24px;
+    margin-right: 143px;
 }
 
 .lamp {
+    background-image: url(../img/lamp.png);
     width: 70px;
     height: 70px;
     border-color: #ff8b38;
     border-style: solid;
     border-radius: 50px;
-    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
     display: inline-block;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 22px;
-    padding-right: 23px;
+}
+  
+.keyboard {
+    background-image: url(../img/keyboard.png);
+    width: 70px;
+    height: 70px;
+    border-color: #ff8b38;
+    border-style: solid;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
-.keyboard {
+.lightning {
+    background-image: url(../img/lightning.png);
     width: 70px;
     height: 70px;
     border-color: #ff8b38;
     border-style: solid;
     border-radius: 50px;
-    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
     display: inline-block;
-    padding-top: 21px;
-    padding-bottom: 22px;
-    padding-left: 14px;
-    padding-right: 15px;
 }
 
 .article-lamp {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin: 0;
-    padding-top: 29px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
     color: #333333;
 }
@@ -123,8 +118,8 @@ section {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin: 0;
-    padding-top: 29px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
     color: #333333;
 }
@@ -133,8 +128,8 @@ section {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin: 0;
-    padding-top: 29px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 20px;
     color: #333333;
 }
@@ -146,5 +141,4 @@ section {
     color: #86878b;
     display: inline-block;
     text-align: center;
-    line-height: 14px;
 }
